@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CadastroActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR NOVO USUARIO"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o nome"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edtEquip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o equipamento"
+        android:inputType="number"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edtMod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o MOD"
+        android:inputType="numberSigned"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALVAR"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
